@@ -24,7 +24,7 @@ all-features = true
 [features]
 const-realfft = []
 fallible = []
-serde = []
+serde = ["dep:serde"]
 default = ["fallible"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
